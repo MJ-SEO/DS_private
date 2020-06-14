@@ -44,7 +44,7 @@ sortedlist_alloc ()
 	return l ;
 }
 
-/*
+
 int 
 sortedlist_lookup (sortedlist_t * l, int e)
 {
@@ -56,7 +56,7 @@ sortedlist_lookup (sortedlist_t * l, int e)
 	}
 	return -1 ; 
 }
-*/
+
 
 int
 search (sortedlist_t * l, int e, int begin, int end)
@@ -73,7 +73,7 @@ search (sortedlist_t * l, int e, int begin, int end)
 
 	return search(l, e, begin, mid) ;
 }
-
+/*
 int 
 sortedlist_lookup (sortedlist_t * l, int e)
 {
@@ -85,6 +85,7 @@ sortedlist_lookup (sortedlist_t * l, int e)
 
 	return -1 ; 
 }
+*/
 void
 sortedlist_insert (sortedlist_t * l, int e)
 {
